@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajouter étudiant</title>
+</head>
+<body>
+<h4>Nom : SONG NTAMACK</h4>
+<h2>Ajouter les notes d’un étudiant</h2>
+
+<form method="POST" action="/add">
+
+    <label>Nom :</label>
+    <input type="text" name="nom" required>
+    <br><br>
+
+    <label>Note 1 :</label>
+    <input type="number" name="note1" step="0.01" required>
+    <br><br>
+
+    <label>Note 2 :</label>
+    <input type="number" name="note2" step="0.01" required>
+    <br><br>
+
+    <label>Note 3 :</label>
+    <input type="number" name="note3" step="0.01" required>
+    <br><br>
+
+    <button type="submit">Ajouter</button>
+
+</form>
+
+<br>
+
+<a href="/result">Voir les résultats</a>
+
+</body>
+</html>
